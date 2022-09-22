@@ -10,7 +10,7 @@ const routes = {
   "/:id": Characters,
 }
 
-//
+// Funcion que controla El DOM y eventos
 const router = async () => {
   const header = null || document.querySelector("#header");
   const content = null || document.querySelector("#content");
